@@ -32,7 +32,7 @@ abstract class House {
     }
   }
 
-  openDoor(key: Key) {}
+  abstract openDoor(key: Key): void;
 }
 
 class MyHouse extends House {

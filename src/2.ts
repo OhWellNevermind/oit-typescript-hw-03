@@ -32,8 +32,8 @@ class Employee {
 }
 
 class Manager extends Employee {
-  constructor(salary: number) {
-    super("Oleg", "Moderniztion", 10000);
+  constructor(name: string, department: string, salary: number) {
+    super(name, department, 10000);
     this.salary += 10000;
   }
 }
